@@ -1,7 +1,7 @@
 # MCAShopping
 E-Commerce SHopping App
 
-** https://playlistify4real.netlify.app/
+** 
 
 # Overview 
 
