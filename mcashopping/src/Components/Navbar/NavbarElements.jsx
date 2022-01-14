@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 60px;
+  /* height: 60px; */
 `;
 
 export const Wrapper = styled.div`
@@ -23,7 +23,7 @@ cursor: pointer;
 `;
 
 export const SearchContainer = styled.div`
-  border: 1px solid lightgray;
+  border: 0.5px solid lightgray;
   display: flex; 
   align-items: center;
   margin-left: 25px;

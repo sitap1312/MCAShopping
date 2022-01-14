@@ -7,6 +7,7 @@ const Navbar = () => {
   return (
     <Container>
       <Wrapper>
+        
         <Left>
           <Language>EN</Language>
           <SearchContainer>
@@ -14,21 +15,21 @@ const Navbar = () => {
             <Search style={{color:"gray", fontSize:16}} />
           </SearchContainer>
         </Left>
+
         <Center>
           <Logo>MCA.</Logo>
         </Center>
+
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={4} color="secondary">
               <ShoppingCartOutlined />
             </Badge>
-            {/* <Badge >
-              <MailIcon color="action" />
-            </Badge> */}
           </MenuItem>
         </Right>
+
       </Wrapper>
     </Container>
   )
