@@ -1,11 +1,15 @@
 import React from 'react';
-import { PContainer } from './ProductsElements';
+import { PSContainer } from './ProductsElements';
+import { popularProducts } from '../../data';
+import Product from '../Product/Product';
 
 const Products = () => {
   return (
-    <PContainer>
-      
-    </PContainer>
+    <PSContainer>
+      {popularProducts.map(item => (
+        <Product item={item} key={item.id} />
+      ))}
+    </PSContainer>
   )
 }
 

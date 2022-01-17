@@ -7,7 +7,7 @@ const Categories = () => {
   return (
     <CContainer>
       {categories.map(item => (
-        <CategoryItem item={item}/>
+        <CategoryItem item={item} key={item.id} />
       ))}
     </CContainer>
   )
