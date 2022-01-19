@@ -5,10 +5,10 @@ import { NButton, NContainer, NDescription, NInput, NInputContainer, NTitle } fr
 const Newsletter = () => {
   return (
     <NContainer>
-      <NTitle></NTitle>
-      <NDescription></NDescription>
+      <NTitle>Newsletter</NTitle>
+      <NDescription>Get timely updates from your favorite products.</NDescription>
       <NInputContainer>
-        <NInput />
+        <NInput placeholder='Your Email'/>
         <NButton>
           <Send />
         </NButton>

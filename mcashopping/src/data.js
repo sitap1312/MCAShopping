@@ -57,7 +57,8 @@ export const popularProducts = [
   },
   {
     id:3,
-    img: "https://i5.walmartimages.com/asr/3b266a16-6ea5-408a-ae67-a737489dfdc3.fa5abb4ff75d420b1cdaaad0f9417998.jpeg",
+    img: "https://ae01.alicdn.com/kf/HLB1VoMXOQvoK1RjSZFNq6AxMVXat/20-Styles-Summer-Shirt-Men-Casual-Short-Sleeve-Men-s-Floral-Shirts-Hawaii-Casual-Male-Flower.jpg",
+    // img: "https://i5.walmartimages.com/asr/3b266a16-6ea5-408a-ae67-a737489dfdc3.fa5abb4ff75d420b1cdaaad0f9417998.jpeg",
     // img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
   },
   {
